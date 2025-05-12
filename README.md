@@ -29,7 +29,7 @@ conda activate fp
 
 ### Usage
 
-* `train_yolo.ipynb`: the YOLO model is already trained, so you only need to run the "Test" section. The images with predicted bounding boxes (trained_results directory) and predicted bounding box coordinates (trained_boxes directory) are in the `datasets/test` directory.
+* `train_yolo.ipynb`: the YOLO model (stored at 'runs/detect/finetuned_yolov11_combined_640_augmented_2cls/weights/last.pt') is already trained, so you only need to run the "Test" section. The images with predicted bounding boxes (trained_results directory) and predicted bounding box coordinates (trained_boxes directory) are in the `datasets/test` directory.
 * `format_dataset.ipynb`: run after train_yolo.ipynb notebook to format images and predicted bounding boxes
 
 Then to run inference with our SAM method: 
