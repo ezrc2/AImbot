@@ -38,6 +38,12 @@ python sam_eval_2.py
 ```
 Make sure the dataset directory paths are correct for each `.ipynb` and `.py` file
 
+* To run the robot pybullet simulation, first ```git pull https://github.com/ElectronicElephant/pybullet_ur5_robotiq/tree/robotflow```. Replace their ```main.py``` with our ```pybullet_main.py```.
+* For the robot pybullet simulation, replace B = [0.0557, 0.0944] with the desired [x, y] coordinates. Then call:
+```
+python pybullet_ur5_robotiq/pybullet_main.py
+```
+
 ### Code Description
 
 * `train_yolo.ipynb`: jupyter notebook for training and testing the YOLOv11 model
