@@ -50,3 +50,4 @@ python pybullet_ur5_robotiq/pybullet_main.py
 * `format_dataset.ipynb`: transforms test images and trained_boxes pairs into HuggingFace transformers dataset loader format
 * `sam_eval_2.py`: run inference with SAM; uses datasets dataloader, draws mask, bounding box, and centroid
 * `SAM_TANK_inference.ipynb`: same as sam eval_eval_2.py, but for better visualization of single images
+* `pybullet_main.py`: calculates inverse kinematics of our trajectory to the target point. Displays a robot arm in UR5 that will move in real-time. 
